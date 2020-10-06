@@ -1,5 +1,6 @@
 #my-hero {
     background-color: olive;
-    height: 800px;
-    background-image: url(./images/hopsandvines.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/hopsandvines.jpg);
+    background-size: cover;
+    height: 700px;
 }

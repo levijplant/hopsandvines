@@ -9,9 +9,7 @@ const App = () => {
     return (
 
         <>
-            <h1>Welcome to Hops & Vines</h1>
-            <Hero>
-            </Hero>
+            <Hero/>
         </>
     )
 }
