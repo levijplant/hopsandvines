@@ -78,6 +78,13 @@ const Hero = () => {
                         </div>
                     </Grid.Column>
                 </Grid.Row>
+                <Grid.Row textAlign='center'>
+                    <Grid.Column>
+                        <p className='located'>Located in Cottonwood, CA.
+                        <br/>
+                        We feature over 20 beers on tap that rotate daily, and over 18 wines from local wineries.</p>
+                    </Grid.Column>
+                </Grid.Row>
             </Grid>
         </Container>
 

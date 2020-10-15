@@ -1,8 +1,8 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} */
 
 #my-hero {
     background-color: olive;
@@ -75,9 +75,9 @@
 } */
 
 .welcome-message {
-    font-size: 3.5em;
+    font-size: 3em;
     line-height: 2.11em;
-    letter-spacing: .138em;
+    letter-spacing: .075em;
     text-align: center;
 }
 
@@ -87,8 +87,14 @@
 
 .glass {
     margin: 10px 7.5px 10px 0;
+    height: 1.5em;
 }
 
 .grapes {
     margin: 10px 0 10px 7.5px;
+    height: 1.5em;
+}
+
+.located {
+    font-size: 1.25em;
 }
