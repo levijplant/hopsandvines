@@ -15,13 +15,13 @@
     color: white;
 }
 
-.main-header {
+/* .main-header {
     display: flex;
 
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
+} */
 
 
 .address,
@@ -34,7 +34,7 @@
     margin: 0;
 }
 
-.address {
+/* .address {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -49,7 +49,7 @@
 .social {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .map-pin-icon,
 .phone-icon {
@@ -68,11 +68,11 @@
     margin: 7.5px;
 }
 
-.welcome-section {
+/* .welcome-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 .welcome-message {
     font-size: 3.5em;
