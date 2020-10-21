@@ -7,8 +7,9 @@ const Hero = () => {
     return (
 
         <Container id="my-hero" fluid>
-            <Grid columns="equal">
-                <Grid.Row>  
+            <div className='container'>
+                <Grid columns="equal">
+                    <Grid.Row>
                         <Grid.Column>
                             <div className='address'>
                                 <address>
@@ -58,34 +59,43 @@ const Hero = () => {
                                 </div>
                             </div>
                         </Grid.Column>
-                </Grid.Row>
-                <Grid.Row textAlign="center">
-                    <Grid.Column>
-                        <h1 className='welcome-message'>Welcome to Hops & Vines!</h1>
-                    </Grid.Column>
-                </Grid.Row>
-                <Grid.Row>
-                    <Grid.Column textAlign="center">
-                        <div className='glass-grapes'>
-                            <img
-                                className='glass'
-                                src={require('./images/beers.svg')}
-                                alt='Beer Glass' />
-                            <img
-                                className='grapes'
-                                src={require('./images/grapes.svg')}
-                                alt='Grapes!' />
-                        </div>
-                    </Grid.Column>
-                </Grid.Row>
-                <Grid.Row textAlign='center'>
-                    <Grid.Column>
-                        <p className='located'>Located in Cottonwood, CA.
-                        <br/>
+                    </Grid.Row>
+                    <Grid.Row textAlign="center">
+                        <Grid.Column>
+                            <h1 className='welcome-message'>Welcome to Hops & Vines!</h1>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row>
+                        <Grid.Column textAlign="center">
+                            <div className='glass-grapes'>
+                                <img
+                                    className='glass'
+                                    src={require('./images/beers.svg')}
+                                    alt='Beer Glass' />
+                                <img
+                                    className='grapes'
+                                    src={require('./images/grapes.svg')}
+                                    alt='Grapes!' />
+                            </div>
+                        </Grid.Column>
+                    </Grid.Row>
+                    <Grid.Row textAlign='center'>
+                        <Grid.Column>
+                            <p className='located'>Located in Cottonwood, CA.
+                        <br />
                         We feature over 20 beers on tap that rotate daily, and over 18 wines from local wineries.</p>
-                    </Grid.Column>
-                </Grid.Row>
-            </Grid>
+                        </Grid.Column>
+                    </Grid.Row>
+                    {/* <Grid.Row className='mouse-row'> */}
+                    {/* </Grid.Row> */}
+                </Grid>
+                <div className='mouse-div'>
+                    <img
+                        className='mouse'
+                        src={require('./images/mouse.png')}
+                        alt='scroll-mouse' />
+                </div>
+            </div>
         </Container>
 
     )
