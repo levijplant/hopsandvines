@@ -1,0 +1,28 @@
+.untappd-div {
+    text-align: center;
+
+    margin-top: 64px;
+}
+
+.rotation {
+    font-size: 2.222em;
+    font-weight: bolder;
+}
+
+.visit-untappd {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.view-untappd {
+    background-color: #C1D72D;
+    border-radius: 20px;
+    padding: 10px 40px;
+
+    font-size: .7em;
+    font-weight: bold;
+}
+
+.right-arrow {
+    font-size: .9em;
+}

@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import 'semantic-ui-css/semantic.min.css'
 
-import { Hero } from './components';
+import { 
+    Hero,
+    Untappd,
+    Footer
+} from './components';
 
 const App = () => {
 
@@ -10,6 +14,8 @@ const App = () => {
 
         <>
             <Hero/>
+            <Untappd/>
+            <Footer/>
         </>
     )
 }
