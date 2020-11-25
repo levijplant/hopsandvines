@@ -17,10 +17,26 @@
 .view-untappd {
     background-color: #C1D72D;
     border-radius: 20px;
-    padding: 10px 40px;
+    padding: 10px 50px;
 
     font-size: .7em;
     font-weight: bold;
+
+    box-shadow: -5px 5px 5px #888888;
+}
+
+.view-untappd:hover {
+    cursor: pointer;
+}
+
+.view-untappd:focus {
+    outline: none;
+    border: none;
+}
+
+.view-untappd:active {
+    background-color: black;
+    color: #C1D72D;
 }
 
 .right-arrow {

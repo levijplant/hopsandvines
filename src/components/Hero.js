@@ -30,6 +30,9 @@ const Hero = () => {
                                         alt='Phone' />
                                     <a href="tel:5303482308">(530) 348-2308</a>
                                 </div>
+                                <div className='hours'>
+                                    Open Daily 2:00 - 10:00pm
+                                </div>
                             </div>
                         </Grid.Column>
                         <Grid.Column width="8" textAlign="center">
@@ -44,18 +47,24 @@ const Hero = () => {
                             <div className='social'>
                                 <p>Connect with us!</p>
                                 <div>
-                                    <img
-                                        className='facebook-logo'
-                                        src={require('./images/facebook-logo-icon.svg')}
-                                        alt='Facebook Logo' />
-                                    <img
-                                        className='untappd-logo'
-                                        src={require('./images/untappd-logo-icon.svg')}
-                                        alt='Untappd Logo' />
-                                    <img
-                                        className='yelp-logo'
-                                        src={require('./images/yelp-logo-icon.svg')}
-                                        alt='Yelp Logo' />
+                                    <a href='https://www.facebook.com/Hops-Vines-392847171276786' target='_blank' rel='noopener noreferrer'>
+                                        <img
+                                            className='facebook-logo'
+                                            src={require('./images/facebook-logo-icon.svg')}
+                                            alt='Facebook Logo' />
+                                    </a>
+                                    <a href='https://untappd.com/v/hops-and-vines/9014721' target='_blank' rel='noopener noreferrer'>
+                                        <img
+                                            className='untappd-logo'
+                                            src={require('./images/untappd-logo-icon.svg')}
+                                            alt='Untappd Logo' />
+                                    </a>
+                                    <a href='https://www.yelp.com/biz/hops-and-vines-cottonwood-2' target='_blank' rel='noopener noreferrer'>
+                                        <img
+                                            className='yelp-logo'
+                                            src={require('./images/yelp-logo-icon.svg')}
+                                            alt='Yelp Logo' />
+                                    </a>
                                 </div>
                             </div>
                         </Grid.Column>
@@ -81,9 +90,10 @@ const Hero = () => {
                     </Grid.Row>
                     <Grid.Row textAlign='center'>
                         <Grid.Column>
-                            <p className='located'>Located in Cottonwood, CA.
-                        <br />
-                        We feature over 20 beers on tap that rotate daily, and over 18 wines from local wineries.</p>
+                            <p className='located'>
+                                Located in Cottonwood, CA.
+                            <br />
+                                We feature over 20 beers on tap that rotate daily, and over 18 wines from local wineries.</p>
                         </Grid.Column>
                     </Grid.Row>
                     {/* <Grid.Row className='mouse-row'> */}
@@ -96,7 +106,7 @@ const Hero = () => {
                         alt='scroll-mouse' />
                 </div>
             </div>
-        </Container>
+        </Container >
 
     )
 

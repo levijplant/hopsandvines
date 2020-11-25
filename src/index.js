@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 // import 'semantic-ui-css/semantic.min.css'
 
-import { 
+import {
+    Navbar,
     Hero,
     Untappd,
     Footer
@@ -13,9 +14,10 @@ const App = () => {
     return (
 
         <>
-            <Hero/>
-            <Untappd/>
-            <Footer/>
+            <Navbar />
+            <Hero />
+            <Untappd />
+            <Footer />
         </>
     )
 }
