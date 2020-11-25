@@ -10,7 +10,7 @@ const Hero = () => {
             <div className='container'>
                 <Grid columns="equal">
                     <Grid.Row>
-                        <Grid.Column>
+                        {/* <Grid.Column>
                             <div className='address'>
                                 <address>
                                     20633 Gas Point Rd, Suite A1<br />
@@ -34,8 +34,8 @@ const Hero = () => {
                                     Open Daily 2:00 - 10:00pm
                                 </div>
                             </div>
-                        </Grid.Column>
-                        <Grid.Column width="8" textAlign="center">
+                        </Grid.Column> */}
+                        <Grid.Column textAlign="center">
                             <div className='logo'>
                                 <img
                                     className='hops-and-vines-logo'
