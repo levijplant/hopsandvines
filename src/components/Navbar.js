@@ -8,24 +8,35 @@ import './Navbar.css';
 const NavBar = ({ }) => {
 
     return (
-        <Segment 
+        <Segment
             className='nav-bar'
             inverted>
             <Menu inverted pointing secondary>
                 <Menu.Item
                     name='home'
-                    // active={}
-                    // onClick={}
+                // active={}
+                // onClick={}
                 />
 
-                <Menu.Item position='right'>
-                    <a href='https://www.facebook.com'><Icon inverted color='teal' name='facebook f' /></a>
-                </Menu.Item>
-                <Menu.Item>
-                    <a href='https://twitter.com/explore'><Icon inverted color='teal' name='twitter' /></a>
-                </Menu.Item>
-                <Menu.Item >
-                    <a href='https://www.snapchat.com/'><Icon inverted color='teal' name='snapchat ghost' /></a>
+                <Menu.Item position='right' fitted >
+                    <a href='https://www.facebook.com/Hops-Vines-392847171276786' target='_blank' rel='noopener noreferrer'>
+                        <img
+                            className='facebook-logo'
+                            src={require('./images/facebook-logo-icon.svg')}
+                            alt='Facebook Logo' />
+                    </a>
+                    <a href='https://untappd.com/v/hops-and-vines/9014721' target='_blank' rel='noopener noreferrer'>
+                        <img
+                            className='untappd-logo'
+                            src={require('./images/untappd-logo-icon.svg')}
+                            alt='Untappd Logo' />
+                    </a>
+                    <a href='https://www.yelp.com/biz/hops-and-vines-cottonwood-2' target='_blank' rel='noopener noreferrer'>
+                        <img
+                            className='yelp-logo'
+                            src={require('./images/yelp-logo-icon.svg')}
+                            alt='Yelp Logo' />
+                    </a>
                 </Menu.Item>
 
 

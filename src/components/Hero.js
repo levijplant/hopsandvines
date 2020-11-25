@@ -43,7 +43,7 @@ const Hero = () => {
                                     alt='Hops and Vines Logo' />
                             </div>
                         </Grid.Column>
-                        <Grid.Column textAlign="right">
+                        {/* <Grid.Column textAlign="right">
                             <div className='social'>
                                 <p>Connect with us!</p>
                                 <div>
@@ -67,7 +67,7 @@ const Hero = () => {
                                     </a>
                                 </div>
                             </div>
-                        </Grid.Column>
+                        </Grid.Column> */}
                     </Grid.Row>
                     <Grid.Row textAlign="center">
                         <Grid.Column>
