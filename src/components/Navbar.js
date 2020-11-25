@@ -26,14 +26,18 @@ const NavBar = ({ }) => {
                     Location/Hours
                 </Menu.Item>
                 <Menu.Item
+                    name='menu'
+                    link
+                // active={}
+                // onClick={} 
+                />
+
+                <Menu.Item
                     name='about'
                     link
                 // active={}
                 // onClick={} 
-                >
-                </Menu.Item>
-
-
+                />
 
                 <Menu.Item position='right'>
                     <a href='https://www.facebook.com'><Icon inverted name='facebook official' size='large' link /></a>
