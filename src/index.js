@@ -5,11 +5,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 // import 'semantic-ui-css/semantic.min.css'
 
 import {
-    Navbar,
-    Hero,
-    Untappd,
     Footer,
-    LocationHours
+    Hero,
+    LocationHours,
+    Menu,
+    Navbar,
+    Untappd
 } from './components';
 
 const App = () => {
@@ -24,6 +25,9 @@ const App = () => {
                 <Switch>
                     <Route path='/locationhours'>
                         <LocationHours />
+                    </Route>
+                    <Route path='/menu'>
+                        <Menu />
                     </Route>
                     <Route path='/'>
                         <Hero />

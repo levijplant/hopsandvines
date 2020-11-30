@@ -22,34 +22,36 @@ const NavBar = () => {
             className='nav-bar'
             inverted>
             <Menu inverted pointing secondary>
-                    <Menu.Item
-                        link
-                        name=''
-                        active={state.activeItem === '/'}
-                        onClick={handleItemClick}
-                    >
-                        <Icon style={{color: '#C1D72D'}} inverted name='home' size='large' link />
+                <Menu.Item
+                    link
+                    name=''
+                    active={state.activeItem === '/'}
+                    onClick={handleItemClick}
+                >
+                    <Icon style={{ color: '#C1D72D' }} inverted name='home' size='large' link />
+                </Menu.Item>
+                <Menu.Item
+                    link
+                    name='locationhours'
+                    active={state.activeItem === '/locationhours'}
+                    onClick={handleItemClick}
+                >
+                    Location/Hours
                     </Menu.Item>
-                    <Menu.Item
-                        link
-                        name='locationhours'
-                        active={state.activeItem === '/locationhours'}
-                        onClick={handleItemClick}
-                    >
-                        Location/Hours
-                    </Menu.Item>
-                    <Menu.Item
-                        name='menu'
-                        link
-                    />
-                    <Menu.Item
-                        name='about'
-                        link
-                    />
+                <Menu.Item
+                    link
+                    name='menu'
+                    active={state.activeItem === '/menu'}
+                    onClick={handleItemClick}
+                />
+                <Menu.Item
+                    name='about'
+                    link
+                />
                 <Menu.Item position='right'>
-                    <a href='https://www.facebook.com'><Icon style={{color: '#C1D72D'}} inverted name='facebook official' size='large' link /></a>
-                    <a href='https://twitter.com/explore'><Icon style={{color: '#C1D72D'}} inverted name='untappd' size='large' link /></a>
-                    <a href='https://www.snapchat.com/'><Icon style={{color: '#C1D72D'}} inverted name='yelp' size='large' link /></a>
+                    <a href='https://www.facebook.com/Hops-Vines-392847171276786' target='_blank' rel='noopener noreferrer'><Icon style={{ color: '#C1D72D' }} inverted name='facebook official' size='large' link /></a>
+                    <a href='https://untappd.com/v/hops-and-vines/9014721' target='_blank' rel='noopener noreferrer'><Icon style={{ color: '#C1D72D' }} inverted name='untappd' size='large' link /></a>
+                    <a href='https://www.yelp.com/biz/hops-and-vines-cottonwood-2' target='_blank' rel='noopener noreferrer'><Icon style={{ color: '#C1D72D' }} inverted name='yelp' size='large' link /></a>
                 </Menu.Item>
             </Menu>
         </Segment>

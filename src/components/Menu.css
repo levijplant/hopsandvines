@@ -1,0 +1,36 @@
+.main {
+    background-color: lightgrey;
+}
+
+.main-menu-container {
+    align-content: center;
+}
+
+.menu-header {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.menu-item-list {
+    list-style: none;
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+
+.menu-prices-column {
+    justify-content: flex-end;
+}
+
+.menu-price-list {
+    list-style: none;
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+
+.sauces {
+    text-align: center;
+}
+
+.hop-image {
+    height: 9em;
+}
