@@ -1,17 +1,25 @@
-h1 {
+/* .menu-header {
+    font-size: 3rem !important;
+} */
+
+.hours {
     padding-top: 4rem;
 }
 
 .main-container {
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
-.map-container {
-    padding-top: 3rem;
+.content-container {
+    margin-top: 3rem;
 }
 
 .map {
     width: 600px;
     height: 450px;
     border: 0;
+}
+
+.logo {
+    padding-bottom: 2rem;
 }
