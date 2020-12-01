@@ -1,7 +1,3 @@
-.main {
-    background-color: lightgrey;
-}
-
 .main-menu-container {
     align-content: center;
 }
@@ -17,10 +13,6 @@
     line-height: 2.5rem;
 }
 
-.menu-prices-column {
-    justify-content: flex-end;
-}
-
 .menu-price-list {
     list-style: none;
     font-size: 3rem;
@@ -33,4 +25,9 @@
 
 .hop-image {
     height: 9em;
+}
+
+.ui.equal.width.grid {
+    margin: 0;
+    height: 100%;
 }
