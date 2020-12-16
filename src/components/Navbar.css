@@ -1,7 +1,20 @@
 .ui.segment {
-    margin-bottom: -1rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 a {
     padding: 0 5px;
+}
+
+@media screen and (max-width: 769px) {
+    .nav-bar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav-bar-mobile {
+        display: none;
+    }
 }
