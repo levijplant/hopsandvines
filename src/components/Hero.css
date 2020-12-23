@@ -15,16 +15,8 @@
     display: flex;
     flex-direction: column;
 
-    margin: 0!important;
+    /* margin: 0 !important; */
 }
-
-/* .main-header {
-    display: flex;
-
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-} */
 
 .address,
 .logo,
@@ -35,23 +27,6 @@
     line-height: 26px;
     margin: 0;
 }
-
-/* .address {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.logo {
-    display: flex;
-
-    align-self: center;
-}
-
-.social {
-    display: flex;
-    flex-direction: column;
-} */
 
 .map-pin-icon,
 .phone-icon {
@@ -69,12 +44,6 @@
 .yelp-logo {
     margin: 7.5px;
 }
-
-/* .welcome-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-} */
 
 .welcome-message {
     font-size: 2.5em;
@@ -102,10 +71,6 @@
     font-size: 1.25em;
     line-height: 1.75em;
 }
-
-/* .mouse-row {
-    height: 50px;
-} */
 
 .mouse-div {
     display: flex;

@@ -1,7 +1,9 @@
 import React from 'react';
 import { Container, Grid } from 'semantic-ui-react'
 import './LocationHours.css';
+
 const LocationHours = () => {
+
     return (
         <Container className='main-container'>
             <Grid>
@@ -34,5 +36,6 @@ const LocationHours = () => {
             </Grid>
         </Container>
     )
-}
+};
+
 export default LocationHours;
