@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
-// import 'semantic-ui-css/semantic.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
     Footer,
@@ -16,33 +15,30 @@ import {
 const App = () => {
 
     return (
-
-        <Router>
+        <>
             <header>
                 <Navbar />
             </header>
             <main>
                 <Switch>
-                    <Route path='/locationhours'>
-                        <LocationHours />
-                    </Route>
-                    <Route path='/menu'>
-                        <Menu />
-                    </Route>
-                    <Route path='/'>
+                    <Route exact path='/'>
                         <Hero />
                         <Untappd />
                     </Route>
+                    <Route path='/locationhours' component={LocationHours} />
+                    <Route path='/menu' component={Menu} />
                 </Switch>
             </main>
             <footer>
                 <Footer />
             </footer>
-        </Router>
+        </>
     )
 }
 
 ReactDOM.render(
-    <App />,
+    <Router>
+        <App />
+    </Router>,
     document.getElementById("app")
 );

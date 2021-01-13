@@ -1,33 +1,33 @@
 .main-menu-container {
-    align-content: center;
+  align-content: center;
 }
 
 .menu-header {
-    text-align: center;
-    font-size: 5rem;
+  text-align: center;
+  font-size: 5rem;
 }
 
 .menu-item-list {
-    list-style: none;
-    font-size: 3rem;
-    line-height: 2.5rem;
+  list-style: none;
+  font-size: 3rem;
+  line-height: 2.5rem;
 }
 
 .menu-price-list {
-    list-style: none;
-    font-size: 3rem;
-    line-height: 2.5rem;
+  list-style: none;
+  font-size: 3rem;
+  line-height: 2.5rem;
 }
 
 .sauces {
-    text-align: center;
+  text-align: center;
 }
 
 .hop-image {
-    height: 9em;
+  height: 9em;
 }
 
 .ui.equal.width.grid {
-    margin: 0;
-    height: 100%;
+  margin: 0;
+  height: 100%;
 }

@@ -3,8 +3,8 @@
     margin-bottom: 0;
 }
 
-a {
-    padding: 0 5px;
+.navbar-link {
+    color: red;
 }
 
 @media screen and (max-width: 769px) {
