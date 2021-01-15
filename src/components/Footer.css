@@ -1,8 +1,7 @@
-.footer {
-    height: 100px;
+#footer {
+    margin-top: auto;
+    height: 100px; 
     background-color: olivedrab;
-    display: flex;
-
     align-items: center;
     justify-content: center;
 }

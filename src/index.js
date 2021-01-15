@@ -15,30 +15,22 @@ import {
 const App = () => {
 
     return (
-        <>
-            <header>
-                <Navbar />
-            </header>
-            <main>
-                <Switch>
-                    <Route exact path='/'>
-                        <Hero />
-                        <Untappd />
-                    </Route>
-                    <Route path='/locationhours' component={LocationHours} />
-                    <Route path='/menu' component={Menu} />
-                </Switch>
-            </main>
-            <footer>
-                <Footer />
-            </footer>
-        </>
+        <Router>
+            <Navbar />
+            <Switch>
+                <Route exact path='/'>
+                    <Hero />
+                    <Untappd />
+                </Route>
+                <Route path='/locationhours' component={LocationHours} />
+                <Route path='/menu' component={Menu} />
+            </Switch>
+            <Footer />
+        </Router>
     )
 }
 
 ReactDOM.render(
-    <Router>
-        <App />
-    </Router>,
+    <App />,
     document.getElementById("app")
 );

@@ -1,44 +1,44 @@
-import React, { useState } from "react";
-import { useHistory, Link } from "react-router-dom";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import React from "react";
+import { Link } from "react-router-dom";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import "./Navbar.css";
 
 const NavBar = () => {
-  const [state, setState] = useState({ activeItem: "" });
-  const history = useHistory();
+  // const [state, setState] = useState({ activeItem: "" });
+  // const history = useHistory();
 
-  const handleItemClick = (e, { href }) => {
-    e.preventDefault();
-    setState({ activeItem: href });
-    let path = `/${href}`;
-    history.push(path);
-  };
+  // const handleItemClick = (e, { href }) => {
+  //   e.preventDefault();
+  //   setState({ activeItem: href });
+  //   let path = `/${href}`;
+  //   history.push(path);
+  // };
 
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Text>
-        <Link to="/">Home</Link>
-      </Navbar.Text>
+    <Navbar collapseOnSelect expand="lg">
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <Navbar.Text>
-            <Link to="locationhours">Location/Hours</Link>
+            <Link to="/" id="navbar-link">
+              Home
+            </Link>
           </Navbar.Text>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
-          <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item>
-          </NavDropdown>
+          <Navbar.Text>
+            <Link to="/locationhours" id="navbar-link">
+              Location/Hours
+            </Link>
+          </Navbar.Text>
+          <Navbar.Text>
+            <Link to="/menu" id="navbar-link">
+              Menu
+            </Link>
+          </Navbar.Text>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
+
     // <>
     //     <Segment
     //         className='nav-bar'

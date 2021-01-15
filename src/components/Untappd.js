@@ -1,10 +1,11 @@
 import React from "react";
-import { Icon } from "semantic-ui-react";
+import Container from 'react-bootstrap/Container';
+import Image from "react-bootstrap/Image";
 import "./Untappd.css";
 
 const Untappd = () => {
   return (
-    <div className="untappd-div">
+    <Container id="untappd-div">
       <h2 className="rotation">Beer Rotation</h2>
       <h4 className="visit-untappd">
         We rotate our beers daily. Visit Untappd to see what's new today.
@@ -16,14 +17,14 @@ const Untappd = () => {
       >
         <button className="view-untappd">
           View Beers on Untappd
-          <Icon
+          <Image
             name="arrow right"
             size="large"
             style={{ paddingLeft: "10px" }}
           />
         </button>
       </a>
-    </div>
+    </Container>
   );
 };
 

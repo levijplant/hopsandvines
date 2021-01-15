@@ -7,57 +7,52 @@ import './Hero.css';
 const Hero = () => {
 
     return (
-
         <Container id="my-hero" fluid>
-            <div className='container'>
-                    <Row>
-                        <Col textAlign="center">
-                            <div className='logo'>
-                                <img
-                                    className='hops-and-vines-logo'
-                                    src={require('./images/hops-and-vines-logo.svg')}
-                                    alt='Hops and Vines Logo' />
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row textAlign="center">
-                        <Col>
-                            <h1 className='welcome-message'>Welcome to Hops & Vines!</h1>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col textAlign="center">
-                            <div className='glass-grapes'>
-                                <img
-                                    className='glass'
-                                    src={require('./images/beers.svg')}
-                                    alt='Beer Glass' />
-                                <img
-                                    className='grapes'
-                                    src={require('./images/grapes.svg')}
-                                    alt='Grapes!' />
-                            </div>
-                        </Col>
-                    </Row>
-                    <Row textAlign='center'>
-                        <Col>
-                            <p className='located'>
-                                Located in Cottonwood, CA.
-                            <br />
-                                We feature over 20 beers on tap that rotate daily, and over 18 wines from local wineries.</p>
-                        </Col>
-                    </Row>
-                <div className='mouse-div'>
-                    <img
-                        className='mouse'
-                        src={require('./images/mouse.png')}
-                        alt='scroll-mouse' />
-                </div>
+            <Row>
+                <Col textAlign="center">
+                    <div className='logo'>
+                        <img
+                            className='hops-and-vines-logo'
+                            src={require('./images/hops-and-vines-logo.svg')}
+                            alt='Hops and Vines Logo' />
+                    </div>
+                </Col>
+            </Row>
+            <Row textAlign="center">
+                <Col>
+                    <h1 className='welcome-message'>Welcome to Hops & Vines!</h1>
+                </Col>
+            </Row>
+            <Row>
+                <Col textAlign="center">
+                    <div className='glass-grapes'>
+                        <img
+                            className='glass'
+                            src={require('./images/beers.svg')}
+                            alt='Beer Glass' />
+                        <img
+                            className='grapes'
+                            src={require('./images/grapes.svg')}
+                            alt='Grapes!' />
+                    </div>
+                </Col>
+            </Row>
+            <Row textAlign='center'>
+                <Col>
+                    <p className='located'>
+                        Located in Cottonwood, CA.
+                    <br />
+                        We feature over 20 beers on tap that rotate daily, and over 18 wines from local wineries.</p>
+                </Col>
+            </Row>
+            <div className='mouse-div'>
+                <img
+                    className='mouse'
+                    src={require('./images/mouse.png')}
+                    alt='scroll-mouse' />
             </div>
-        </Container >
-
+        </Container>
     )
-
 };
 
 export default Hero; 

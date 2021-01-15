@@ -1,20 +1,25 @@
-.ui.segment {
-    margin-top: 0;
-    margin-bottom: 0;
+.navbar {
+  background-color: black;
 }
 
-.navbar-link {
-    color: red;
+#navbar-link {
+  padding-right: 0.7rem;
+  color: #c1d72d;
+  text-decoration: none;
+}
+
+#navbar-link:hover {
+  color: olivedrab;
 }
 
 @media screen and (max-width: 769px) {
-    .nav-bar {
-        display: none;
-    }
+  .nav-bar {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .nav-bar-mobile {
-        display: none;
-    }
+  .nav-bar-mobile {
+    display: none;
+  }
 }

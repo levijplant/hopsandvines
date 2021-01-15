@@ -1,7 +1,7 @@
-.untappd-div {
+#untappd-div {
     text-align: center;
-
-    margin: 64px 0 50px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .rotation {

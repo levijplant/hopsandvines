@@ -1,9 +1,11 @@
 .hours {
     padding-top: 4rem;
 }
+
 .main-container {
     margin-top: 2rem;
 }
+
 .content-container {
     margin-top: 3rem;
 }
@@ -12,7 +14,4 @@
     width: 600px;
     height: 450px;
     border: 0;
-}
-.logo {
-    padding-bottom: 2rem;
 }
