@@ -36,8 +36,28 @@ const NavBar = () => {
             </Link>
           </Navbar.Text>
         </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+        <Nav>
+          <Navbar.Brand href="https://www.facebook.com/Hops-Vines-392847171276786/" target="_blank" rel='noreferrer noopener'>
+            <img
+              src={require("./images/facebook-logo-icon.svg")}
+              alt='facebook logo'
+            />
+          </Navbar.Brand>
+          <Navbar.Brand href="https://untappd.com/v/hops-and-vines/9014721" target="_blank" rel='noreferrer noopener'>
+            <img
+              src={require("./images/untappd-logo-icon.svg")}
+              alt='untappd logo'
+            />
+          </Navbar.Brand>
+          <Navbar.Brand href="https://www.yelp.com/biz/hops-and-vines-cottonwood-2" target="_blank" rel='noreferrer noopener'>
+            <img
+              src={require("./images/yelp-logo-icon.svg")}
+              alt='yelp logo'
+            />
+          </Navbar.Brand>
+        </Nav>
+        </Navbar.Collapse>
+      </Navbar>
 
     // <>
     //     <Segment
