@@ -8,10 +8,25 @@
 
 .content-container {
     margin-top: 3rem;
+    display: flex;
 }
 
-.map {
+.map-nonmobile {
     width: 600px;
     height: 450px;
     border: 0;
+    margin: 2rem 0;
 }
+
+@media screen and (max-width: 769px) {
+    .map-nonmobile {
+        width: 450px;
+        height: 337.5px;
+        border: 0;
+        margin: 2rem 0;
+        justify-content: center;
+    }
+}
+
+/* @media screen and (min-width: 768px) {
+} */

@@ -1,33 +1,43 @@
 .navbar {
-  background-color: black;
+    background-color: black;
+    width: 100vw;
 }
 
 #navbar-link {
-  padding-right: 0.7rem;
-  color: #c1d72d;
-  text-decoration: none;
+    padding-right: 0.7rem;
+    color: #c1d72d;
+    text-decoration: none;
 }
 
 #navbar-link:hover {
-  color: olivedrab;
+    color: olivedrab;
 }
 
 #basic-nav-dropdown {
-  color: #c1d72d;
+    color: #c1d72d;
 }
 
 .dropdown-toggle:after {
-  content: none 
+    content: none 
 }
 
-/* @media screen and (max-width: 769px) {
-  .nav-bar {
-    display: none;
-  }
-} */
+.dropdown-link {
+    color: black;
+    
+}
+
+.dropdown-link:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 769px) {
+    .nav-bar-nonmobile {
+        display: none;
+    }
+}
 
 @media screen and (min-width: 768px) {
-  .dropdown {
-    display: none;
-  }
+    .dropdown {
+        display: none;
+    }
 }
