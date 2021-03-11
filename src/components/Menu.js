@@ -11,8 +11,7 @@ const Menu = () => {
           </Col>
         </Row>
         <Row>
-          <Col></Col>
-          <Col width={6} className="menu-items-column" >
+          <Col width={8} className="menu-items-column">
             <ul className="menu-item-list">
               <li>Chicken Wings</li>
               <li>Chicken Tenders</li>
@@ -24,7 +23,7 @@ const Menu = () => {
             </ul>
           </Col>
           <Col
-            width={6}
+            width={4}
             className="menu-prices-column"
             style={{ textAlign: 'right' }}
           >
@@ -38,7 +37,6 @@ const Menu = () => {
               <li>$6.00</li>
             </ul>
           </Col>
-          <Col></Col>
         </Row>
         <Row
           className="sauces"

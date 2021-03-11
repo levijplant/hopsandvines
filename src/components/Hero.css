@@ -3,12 +3,17 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/hopsandvines.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
+    height: 700px;
     padding: 25px;
     width: 100vw;
-
+    display: flex;
+    flex-direction: column;
     text-align: center;
     color: white;
+}
+
+.bottom {
+    margin-top: auto;
 }
 
 .address,
@@ -76,4 +81,22 @@
 .mouse {
     height: 2.75em;
     color: black;
+}
+
+@media screen and (max-width: 769px) {
+    .hops-and-vines-logo {
+      width: 50%;
+    }
+
+    #my-hero {
+        height: 600px;
+    }
+
+    .welcome-message {
+        font-size: 1.75em;
+    }
+
+    .located {
+        font-size: 0.75em;
+    }
 }

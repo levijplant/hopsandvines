@@ -23,6 +23,15 @@ const Hero = () => {
                     <h1 className='welcome-message'>Welcome to Hops & Vines!</h1>
                 </Col>
             </Row>
+            <Row textAlign='center'>
+                <Col>
+                    <p className='located'>
+                        Located in Cottonwood, CA.
+                    <br />
+                        We feature over 20 beers on tap that rotate daily, and over 18 wines from local wineries.</p>
+                </Col>
+            </Row>
+            <div className='bottom'>
             <Row>
                 <Col textAlign="center">
                     <div className='glass-grapes'>
@@ -37,19 +46,12 @@ const Hero = () => {
                     </div>
                 </Col>
             </Row>
-            <Row textAlign='center'>
-                <Col>
-                    <p className='located'>
-                        Located in Cottonwood, CA.
-                    <br />
-                        We feature over 20 beers on tap that rotate daily, and over 18 wines from local wineries.</p>
-                </Col>
-            </Row>
-            <div className='mouse-div'>
+            {/* <div className='mouse-div'>
                 <img
                     className='mouse'
                     src={require('./images/mouse.png')}
                     alt='scroll-mouse' />
+            </div> */}
             </div>
         </Container>
     )
