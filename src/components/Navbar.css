@@ -1,5 +1,6 @@
 .navbar {
-  background-color: black;
+    background-color: black;
+    width: 100vw;
 }
 
 .dropdown-menu {
@@ -7,9 +8,9 @@
 }
 
 #navbar-link {
-  padding-right: 0.7rem;
-  color: #c1d72d;
-  text-decoration: none;
+    padding-right: 0.7rem;
+    color: #c1d72d;
+    text-decoration: none;
 }
 
 #dropdown-text{
@@ -31,15 +32,15 @@
 }
 
 #navbar-link:hover {
-  color: olivedrab;
+    color: olivedrab;
 }
 
 #basic-nav-dropdown {
-  color: #c1d72d;
+    color: #c1d72d;
 }
 
 .dropdown-toggle:after {
-  content: none 
+    content: none 
 }
 
 @media screen and (max-width: 769px) {
@@ -50,7 +51,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .dropdown {
-    display: none;
-  }
+    .dropdown {
+        display: none;
+    }
 }
