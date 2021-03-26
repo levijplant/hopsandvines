@@ -42,3 +42,9 @@
 .right-arrow {
     font-size: .9em;
 }
+
+h2,
+h4, 
+button {
+    margin: 1rem 0;
+}

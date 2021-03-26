@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {
+    AboutUs,
     Footer,
     Hero,
     LocationHours,
@@ -24,6 +25,7 @@ const App = () => {
                 </Route>
                 <Route path='/locationhours' component={LocationHours} />
                 <Route path='/menu' component={Menu} />
+                <Route path='/aboutus' component={AboutUs} />
             </Switch>
             <Footer />
         </Router>
