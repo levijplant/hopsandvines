@@ -3,5 +3,28 @@
     margin: 2rem 0;
 }
 
-@media screen and (max-width: 769px) {
+#chad-beer-pic,
+#nicole-chad,
+#about-paragraph-one,
+#about-paragraph-two {
+    margin-bottom: 3rem;
+}
+
+/* @media screen and (max-width: 769px) {
+
+} */
+
+@media only screen and (min-width: 768px) {
+    #column-one,
+    #column-three {
+        margin-right: 2rem;
+    }
+    #column-two,
+    #column-four {
+        margin-left: 2rem;
+    }
+    #about-paragraph-one,
+    #about-paragraph-two {
+        line-height: 2rem;
+    }
 }

@@ -11,22 +11,22 @@ const AboutUs = () => {
                 </Col>
             </Row>
             <Row className='justify-content-center'>
-                <Col xs={8} md={4}>
+                <Col xs={8} sm={10} md={4} id="column-one">
                     <Image
                         id='chad-beer-pic'
                         fluid
                         rounded
                         src={require("./images/chad-beer.jpg")} alt='Chad Drinking Beer' />
                 </Col>
-                <Col xs={8} md={4}>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, velit! Minus, nam. Animi cumque, odio perspiciatis minima earum fugiat voluptatum. Atque delectus doloribus quod rerum, facere harum enim voluptas ut.</p>
+                <Col xs={8} sm={10} md={4} id="column-two">
+                    <p id="about-paragraph-one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, velit! Minus, nam. Animi cumque, odio perspiciatis minima earum fugiat voluptatum. Atque delectus doloribus quod rerum, facere harum enim voluptas ut.</p>
                 </Col>
             </Row>
             <Row className='justify-content-center'>
-                <Col xs={8} md={4}>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, velit! Minus, nam. Animi cumque, odio perspiciatis minima earum fugiat voluptatum. Atque delectus doloribus quod rerum, facere harum enim voluptas ut.</p>
+                <Col xs={8} sm={10} md={4} id="column-three">
+                    <p id="about-paragraph-two">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, velit! Minus, nam. Animi cumque, odio perspiciatis minima earum fugiat voluptatum. Atque delectus doloribus quod rerum, facere harum enim voluptas ut.</p>
                 </Col>
-                <Col xs={8} md={4}>
+                <Col xs={8} sm={10} md={4} id="column-four">
                     <Image
                         id='nicole-chad'
                         fluid
