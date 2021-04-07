@@ -9,7 +9,7 @@ const LocationHours = () => {
         <Container className="main-container">
             <Row>
                 <Col className="main-menu-grid">
-                    <h1 className='menu-header'>Location/Hours</h1>
+                    <h1 id="location-hours-header">Location/Hours</h1>
                 </Col>
             </Row>
             <Row className="content-container">
