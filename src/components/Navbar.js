@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faHome } from '@fortawesome/free-solid-svg-icons';
 import "./Navbar.css";
 
 const NavBar = () => {
@@ -19,25 +19,25 @@ const NavBar = () => {
                     <NavDropdown.Item id='dropdown-link'><Link to="/aboutus" id="dropdown-text">About Us</Link></NavDropdown.Item>
                 </NavDropdown>
                 <div className='full-screen'>
-                    <Navbar.Text>
+                    <Navbar.Text >
                         <Link to="/" id="navbar-link">
-                            Home
-                </Link>
+                            <FontAwesomeIcon icon={faHome} />
+                        </Link>
                     </Navbar.Text>
                     <Navbar.Text>
                         <Link to="/locationhours" id="navbar-link">
                             Location/Hours
-                </Link>
+                        </Link>
                     </Navbar.Text>
                     <Navbar.Text>
                         <Link to="/menu" id="navbar-link">
                             Menu
-                </Link>
+                        </Link>
                     </Navbar.Text>
                     <Navbar.Text>
                         <Link to="/aboutus" id="navbar-link">
                             About Us
-                </Link>
+                        </Link>
                     </Navbar.Text>
                 </div>
             </Nav>
