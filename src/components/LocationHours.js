@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhoneAlt, faMapMarkedAlt, faMapPin } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneAlt, faMapPin } from '@fortawesome/free-solid-svg-icons';
 import "./LocationHours.css";
 
 const LocationHours = () => {
@@ -24,8 +24,8 @@ const LocationHours = () => {
                         </p>
                         <p>
                             <FontAwesomeIcon icon={faMapPin} />
-                            <a href='https://maps.google.com/?q=20633+Gas+Point+Rd,+Cottonwood+CA'>
-                                <a href='https://maps.apple.com/maps?q=20633+Gas+Point+Rd,+Cottonwood+CA'>
+                            <a href='https://maps.google.com/?q=20633+Gas+Point+Rd,+Cottonwood+CA' >
+                                <a href='https://maps.apple.com/maps?q=20633+Gas+Point+Rd,+Cottonwood+CA' id='get-directions'>
                                     Get Directions</a></a>
                         </p>
                         <FontAwesomeIcon icon={faPhoneAlt} />
