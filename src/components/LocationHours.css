@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+#phone-number {
+    color: olivedrab;
+}
+
 .hours {
     padding-top: 4rem;
 }
@@ -16,7 +20,7 @@
     display: flex;
 }
 
-.map-nonmobile {
+#map {
     width: 600px;
     height: 450px;
     border: 0;
@@ -24,15 +28,12 @@
 }
 
 @media screen and (max-width: 769px) {
-    .map-nonmobile {
-        width: 450px;
-        height: 337.5px;
-        border: 0;
-        margin: 2rem 0;
-        justify-content: center;
+    .map-container-nonmobile {
+        display: none;
     }
+
     #location-hours-header {
-        font-size: 3.15rem;
+        font-size: 3.05rem;
         text-align: center;
     }    
 }

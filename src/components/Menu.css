@@ -5,7 +5,7 @@
 
 .menu-header {
     text-align: center;
-    font-size: 5rem;
+    font-size: 3.75rem;
 }
 
 .menu-item-list {
@@ -34,7 +34,7 @@
 }
 
 @media screen and (max-width: 769px) {
-  .main-menu-container {
-    width: 90%;
-  }
+    .main-menu-container {
+        width: 90%;
+    }
 }
