@@ -20,7 +20,7 @@ const Hero = () => {
             </Row>
             <Row textAlign="center">
                 <Col>
-                    <h1 className='welcome-message'>Welcome to Hops & Vines!</h1>
+                    <h1 className='welcome-message' id='welcome-message'>Welcome to Hops & Vines!</h1>
                 </Col>
             </Row>
             <Row textAlign='center'>

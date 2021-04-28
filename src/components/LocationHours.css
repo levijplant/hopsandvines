@@ -31,6 +31,10 @@
         margin: 2rem 0;
         justify-content: center;
     }
+    #location-hours-header {
+        font-size: 3.15rem;
+        text-align: center;
+    }    
 }
 
 /* @media screen and (min-width: 768px) {

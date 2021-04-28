@@ -12,7 +12,7 @@ const NavBar = () => {
     return (
         <Navbar>
             <Nav className="mr-auto">
-                <NavDropdown className="dropdown" title={<FontAwesomeIcon icon={faBars} />} id="basic-nav-dropdown">
+                <NavDropdown className="dropdown" title={<FontAwesomeIcon icon={faBars}/>} id="basic-nav-dropdown">
                     <NavDropdown.Item id='dropdown-link'><Link to="/" id="dropdown-text">Home</Link></NavDropdown.Item>
                     <NavDropdown.Item id='dropdown-link'><Link to="/locationhours" id="dropdown-text">Location/Hours</Link></NavDropdown.Item>
                     <NavDropdown.Item id='dropdown-link'><Link to="/menu" id="dropdown-text">Menu</Link></NavDropdown.Item>
@@ -21,7 +21,7 @@ const NavBar = () => {
                 <div className='full-screen'>
                     <Navbar.Text >
                         <Link to="/" id="navbar-link">
-                            <FontAwesomeIcon icon={faHome} />
+                            <FontAwesomeIcon icon={faHome}/>
                         </Link>
                     </Navbar.Text>
                     <Navbar.Text>

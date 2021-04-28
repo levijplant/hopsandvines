@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 769px) {
     .hops-and-vines-logo {
-      width: 50%;
+        width: 50%;
     }
 
     #my-hero {
@@ -93,7 +93,7 @@
     }
 
     .welcome-message {
-        font-size: 1.75em;
+        font-size: 1.55em;
     }
 
     .located {
