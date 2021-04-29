@@ -34,7 +34,7 @@ const LocationHours = () => {
                     <div className="hours">
                         <h1>Hours</h1>
                         <p>Monday - Thursday: 2:00 PM - 10:00 PM</p>
-                        <p>Friday - Saturday: 2:00 PM - 12:00 AM</p>
+                        <p>Friday - Saturday: 2:00 PM - 10:00 PM</p>
                         <p>Sunday: 12:00 PM - 8:00 PM</p>
                     </div>
                 </Col>

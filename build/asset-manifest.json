@@ -1,27 +1,38 @@
 {
   "files": {
-    "main.css": "/static/css/main.630c5866.chunk.css",
-    "main.js": "/static/js/main.887c0878.chunk.js",
-    "main.js.map": "/static/js/main.887c0878.chunk.js.map",
+    "main.css": "/static/css/main.05da751b.chunk.css",
+    "main.js": "/static/js/main.68583890.chunk.js",
+    "main.js.map": "/static/js/main.68583890.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f850493a.js",
     "runtime-main.js.map": "/static/js/runtime-main.f850493a.js.map",
-    "static/js/2.af0120d2.chunk.js": "/static/js/2.af0120d2.chunk.js",
-    "static/js/2.af0120d2.chunk.js.map": "/static/js/2.af0120d2.chunk.js.map",
+    "static/css/2.2a86faee.chunk.css": "/static/css/2.2a86faee.chunk.css",
+    "static/js/2.78434380.chunk.js": "/static/js/2.78434380.chunk.js",
+    "static/js/2.78434380.chunk.js.map": "/static/js/2.78434380.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.4052602396045c3cf61bb84acf50a0b9.js": "/precache-manifest.4052602396045c3cf61bb84acf50a0b9.js",
+    "precache-manifest.d5ae25da93481dc757c7dd05b8df7d0b.js": "/precache-manifest.d5ae25da93481dc757c7dd05b8df7d0b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.630c5866.chunk.css.map": "/static/css/main.630c5866.chunk.css.map",
-    "static/js/2.af0120d2.chunk.js.LICENSE.txt": "/static/js/2.af0120d2.chunk.js.LICENSE.txt",
+    "static/css/2.2a86faee.chunk.css.map": "/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.05da751b.chunk.css.map": "/static/css/main.05da751b.chunk.css.map",
+    "static/js/2.78434380.chunk.js.LICENSE.txt": "/static/js/2.78434380.chunk.js.LICENSE.txt",
     "static/media/beers.svg": "/static/media/beers.cd05c2eb.svg",
+    "static/media/chad-beer.jpg": "/static/media/chad-beer.d7b671eb.jpg",
+    "static/media/facebook-logo-icon-green.svg": "/static/media/facebook-logo-icon-green.620606dc.svg",
+    "static/media/facebook-logo-icon.svg": "/static/media/facebook-logo-icon.0fa099b9.svg",
     "static/media/grapes.svg": "/static/media/grapes.416c5a09.svg",
     "static/media/hop.jpg": "/static/media/hop.fc177533.jpg",
     "static/media/hops-and-vines-logo.svg": "/static/media/hops-and-vines-logo.722b5c44.svg",
-    "static/media/Hero.css": "/static/media/hopsandvines.54a78228.jpg"
+    "static/media/Hero.css": "/static/media/hopsandvines.54a78228.jpg",
+    "static/media/nicole-chad2.jpg": "/static/media/nicole-chad2.9176aabc.jpg",
+    "static/media/untappd-logo-icon-green.svg": "/static/media/untappd-logo-icon-green.a9589858.svg",
+    "static/media/untappd-logo-icon.svg": "/static/media/untappd-logo-icon.8a6e88f1.svg",
+    "static/media/yelp-logo-icon-green.svg": "/static/media/yelp-logo-icon-green.a64e5692.svg",
+    "static/media/yelp-logo-icon.svg": "/static/media/yelp-logo-icon.64a54a70.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.f850493a.js",
-    "static/js/2.af0120d2.chunk.js",
-    "static/css/main.630c5866.chunk.css",
-    "static/js/main.887c0878.chunk.js"
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.78434380.chunk.js",
+    "static/css/main.05da751b.chunk.css",
+    "static/js/main.68583890.chunk.js"
   ]
 }
