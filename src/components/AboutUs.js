@@ -24,7 +24,7 @@ const AboutUs = () => {
             </Row>
             <Row className="justify-content-center">
                 <Col xs={10} sm={10} md={5} id="column-three" className="justify-content-center">
-                    <p id="about-paragraph-two">My goal is to provide a clean and comfortable environment for people to gather and enjoy beers, ciders, and wine. I love travelling and sampling unique beer options at new locations. With this pub, I want to bring these new options to my community.</p>
+                    <p id="about-paragraph-two">My goal is to provide a clean and comfortable environment for people to gather and enjoy beers, ciders, and wine. I love traveling and sampling unique beer options at new locations. With this pub, I want to bring these new options to my community.</p>
                 </Col>
                 <Col xs={10} sm={10} md={5} id="column-four">
                     <Image
