@@ -33,9 +33,7 @@ const LocationHours = () => {
                     </div>
                     <div className="hours">
                         <h1>Hours</h1>
-                        <p>Monday - Thursday: 2:00 PM - 10:00 PM</p>
-                        <p>Friday - Saturday: 2:00 PM - 10:00 PM</p>
-                        <p>Sunday: 12:00 PM - 8:00 PM</p>
+                        <p>Open Every Day: 2:00 PM - 10:00 PM</p>
                     </div>
                 </Col>
                 <Col className='map-container-nonmobile'>
