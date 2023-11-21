@@ -19,7 +19,6 @@ const Menu = () => {
                         <li>Onion Rings</li>
                         <li>Fries or Tots</li>
                         <li>Waffle Fries</li>
-                        <li>Mac & Cheese Bites</li>
                         <li>Mini Corndogs</li>
                         <li>Jalapeño Poppers</li>
                         <li>Green Beans</li>
@@ -37,7 +36,6 @@ const Menu = () => {
                         <li>$6.00</li>
                         <li>$5.00</li>
                         <li>$6.00</li>
-                        <li>$7.00</li>
                         <li>$6.00</li>
                         <li>$7.00</li>
                         <li>$7.00</li>
