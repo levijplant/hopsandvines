@@ -13,15 +13,15 @@ const Menu = () => {
             <Row>
                 <Col width={8} className="menu-items-column">
                     <ul className="menu-item-list">
-                        <li>Chicken Wings (6)</li>
-                        <li>Chicken Tenders (4)</li>
-                        <li>Mozzerella Sticks (6)</li>
+                        <li>Chicken Wings</li>
+                        <li>Chicken Tenders</li>
+                        <li>Mozzerella Sticks</li>
                         <li>Onion Rings</li>
                         <li>Fries or Tots</li>
                         <li>Waffle Fries</li>
-                        <li>Mac & Cheese Bites (10)</li>
-                        <li>Mini Corndogs (12)</li>
-                        <li>Jalapeño Poppers (8)</li>
+                        <li>Mac & Cheese Bites</li>
+                        <li>Mini Corndogs</li>
+                        <li>Jalapeño Poppers</li>
                         <li>Green Beans</li>
                     </ul>
                 </Col>
