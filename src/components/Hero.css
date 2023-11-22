@@ -55,14 +55,18 @@
     align-items: center;
 }
 
-.glass {
+.glass,
+.beer-glass {
     margin: 10px 7.5px 10px 0;
     height: 1.5em;
+    fill: white;
 }
 
-.grapes {
+.grapes,
+.wine-bottle {
     margin: 10px 0 10px 7.5px;
     height: 1.5em;
+    fill: white;
 }
 
 .located {

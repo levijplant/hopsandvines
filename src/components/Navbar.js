@@ -4,7 +4,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faHome } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faHome, } from '@fortawesome/free-solid-svg-icons';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import "./Navbar.css";
 
 const NavBar = () => {
@@ -42,11 +43,8 @@ const NavBar = () => {
                 </div>
             </Nav>
             <Nav className='social-media'>
-                <Navbar.Brand href="https://www.facebook.com/Hops-Vines-392847171276786/" target="_blank" rel='noreferrer noopener'>
-                    <img
-                        src={require("./images/facebook-logo-icon-green.svg")}
-                        alt='facebook logo'
-                    />
+                <Navbar.Brand href="https://www.facebook.com/Hops-Vines-392847171276786/" target="_blank" rel='noreferrer noopener' >
+                <FontAwesomeIcon icon = {faFacebookF} />
                 </Navbar.Brand>
                 <Navbar.Brand href="https://untappd.com/v/hops-and-vines/9014721" target="_blank" rel='noreferrer noopener'>
                     <img
