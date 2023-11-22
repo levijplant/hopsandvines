@@ -15,6 +15,21 @@ img {
     height: 2rem;
 }
 
+.facebook-logo {
+    height: 1.5em;
+    fill: #316FF6;
+}
+
+.untappd-logo {
+    height: 1.5em;
+    fill: #F2CB07;
+}
+
+.yelp-logo {
+    height: 1.5em;
+    fill: #FF1A1A;
+}
+
 @media only screen and (min-width: 768px) {
     .mobile-social {
         display: none;

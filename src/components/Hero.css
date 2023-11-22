@@ -63,7 +63,8 @@
 }
 
 .grapes,
-.wine-bottle {
+.wine-bottle,
+.wine-glass {
     margin: 10px 0 10px 7.5px;
     height: 1.5em;
     fill: white;

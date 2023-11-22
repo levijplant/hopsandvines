@@ -1,23 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.336e577d.css",
-    "main.js": "/static/js/main.057adcde.js",
+    "main.css": "/static/css/main.7a5ccc8f.css",
+    "main.js": "/static/js/main.a93592b3.js",
     "static/media/chad-beer.jpg": "/static/media/chad-beer.f89cc33e842ceb838dfa.jpg",
     "static/media/nicole-chad2.jpg": "/static/media/nicole-chad2.c33deeec58a113b07267.jpg",
     "static/media/hopsandvines.jpg": "/static/media/hopsandvines.6c95652e081d58cb89d6.jpg",
     "static/media/hop.jpg": "/static/media/hop.05e0d6bfd3e27ba3e077.jpg",
-    "static/media/hops-and-vines-logo.svg": "/static/media/hops-and-vines-logo.51ebce3e2d040cf136be1c0bfc1f62ec.svg",
-    "static/media/untappd-logo-icon-green.svg": "/static/media/untappd-logo-icon-green.56ec5f1dc8c38af3890e6cf8b4773e47.svg",
-    "static/media/untappd-logo-icon.svg": "/static/media/untappd-logo-icon.495dd3178d671d7ba6be19d760e5ac19.svg",
-    "static/media/yelp-logo-icon-green.svg": "/static/media/yelp-logo-icon-green.dbc2a9b759314777815971c86e87c9fd.svg",
-    "static/media/yelp-logo-icon.svg": "/static/media/yelp-logo-icon.4cbfe27d6931765ea3fa1513514ef9ea.svg",
-    "static/media/facebook-logo-icon.svg": "/static/media/facebook-logo-icon.73e1b05fa8e27c360a4eb01ca3601c9a.svg",
     "index.html": "/index.html",
-    "main.336e577d.css.map": "/static/css/main.336e577d.css.map",
-    "main.057adcde.js.map": "/static/js/main.057adcde.js.map"
+    "main.7a5ccc8f.css.map": "/static/css/main.7a5ccc8f.css.map",
+    "main.a93592b3.js.map": "/static/js/main.a93592b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.336e577d.css",
-    "static/js/main.057adcde.js"
+    "static/css/main.7a5ccc8f.css",
+    "static/js/main.a93592b3.js"
   ]
 }
