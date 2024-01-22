@@ -14,10 +14,10 @@ const Hero = () => {
             <Row>
                 <Col textAlign="center">
                     <div className='logo'>
-                        {/* <img
+                        <img
                             className='hops-and-vines-logo'
-                            src={require('./images/hops-and-vines-logo.svg')}
-                            alt='Hops and Vines Logo' /> */}
+                            src={require('./images/hops-and-vines-logo1.png')}
+                            alt='Hops and Vines Logo' />
                     </div>
                 </Col>
             </Row>
